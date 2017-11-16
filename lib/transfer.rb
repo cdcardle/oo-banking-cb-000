@@ -8,4 +8,17 @@ class Transfer
     @amount = amount
     @status = "pending"
   end
+
+  def sender
+    @sender
+  end
+
+  def receiver
+    @receiver
+  end
+
+  def valid?
+    
+    
+  end
 end
