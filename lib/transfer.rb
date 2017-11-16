@@ -17,6 +17,10 @@ class Transfer
     @receiver
   end
 
+  def amount
+    @amount
+  end
+
   def valid?
     self.sender.valid?
     self.receiver.valid?
